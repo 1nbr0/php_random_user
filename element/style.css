@@ -1,0 +1,54 @@
+body {
+    margin: auto;
+}
+
+div {
+    font-family: Helvetica;
+    display: block;
+}
+
+.btnPopin{
+    background-color: rgb(182, 178, 178);
+    padding: 0.5em 0.5em;
+    font-size: 10pt;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnPopin:hover{
+    background-color: gainsboro;
+} 
+
+.overlay{
+    margin: auto;
+    background-color: rgb(53, 50, 50);
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popin{
+    margin: 2.5% auto;
+    width: 35%;
+    height: auto;
+    background-color: rgb(219, 223, 219);
+    border-radius: 8px;
+    box-shadow: 10px 15px 0 rgb(61, 61, 61);
+    padding-left: 1em;
+    padding-top: 0.5px;
+    padding-right: 1em;
+    padding-bottom: 0.5px;
+}
+
+.btnClose{
+    float: right;
+    cursor: pointer;
+}
+
+.popinMore{
+    display: none;
+}
