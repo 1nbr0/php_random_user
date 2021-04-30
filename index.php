@@ -9,7 +9,7 @@
     </div>
     <div>
         <h2>Call API with this Button</h2>
-        <button onclick="alert()">Call Random User</button>
+        <!-- <button onclick="alert()">Call Random User</button> -->
     </div>
 
 </body>
