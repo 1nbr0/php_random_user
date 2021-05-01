@@ -16,21 +16,26 @@
         <div id="popin" class="popin">
             <h2>Here is 10 random users :<span id="btnClose" class="btnClose">&times;</span></h2>
             <ul>
-                <?php foreach($multipleUser as $users): ?>
+                <!-- Je boucle sur le nombre de multipleUser créée afin de les afficher sous forme de liste dans ma popin -->
+                <?php foreach($multipleUser as $users): ?> <!-- je démarre ma boucle -->
                 <!-- genre, nom complet, nationalité -->
                 <li>Gender : <?= $users['gender'] ?>, Name : <?= $users['firstName'] ?> <?= $users['lastName'] ?>, Nationality : <?= $users['nat'] ?></li><br/>
-                <?php endforeach ?>
+                <?php endforeach ?> <!-- je mets fin à ma boucle -->
             </ul>
             
+
+            <!-- Le bouton "voir plus" permet d'afficher 10 utilisateurs suplémentaire.
+                Cependant, je n'arrive pas à créer une fonction php dans RandomUser.php
+                permettant de retourner 10 nouveaux utilisateurs -->
             <button id="btnPopinMore" class="btnPopinMore">Voir plus</button>
 
             <div id="popinMore" class="popinMore">
-            <ul>
-                <?php foreach($multipleUser as $users): ?>
-                <!-- genre, nom complet, nationalité -->
-                <li>Gender : <?= $users['gender'] ?>, Name : <?= $users['firstName'] ?> <?= $users['lastName'] ?>, Nationality : <?= $users['nat'] ?></li><br/>
-                <?php endforeach ?>
-            </ul>
+                <ul>
+                    <?php foreach($multipleUser as $users): ?>
+                    <!-- genre, nom complet, nationalité -->
+                    <li>Gender : <?= $users['gender'] ?>, Name : <?= $users['firstName'] ?> <?= $users['lastName'] ?>, Nationality : <?= $users['nat'] ?></li><br/>
+                    <?php endforeach ?>
+                </ul>
             </div>
         </div>
     </div>

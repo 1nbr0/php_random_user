@@ -12,7 +12,6 @@ class RandomUser {
     }
 
     // La fonction suivante me permet dans un premier temps d'appeler l'API, randomuser, en la complétant depuis random_user.php
-    // Puis elle vérifie si le code http est correct
 
     public function getMultipleUser(int $nbUser): ?array
     {

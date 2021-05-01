@@ -7,6 +7,7 @@ div {
     display: block;
 }
 
+/* debut style bouton popin */
 .btnPopin{
     background-color: rgb(182, 178, 178);
     padding: 0.5em 0.5em;
@@ -19,7 +20,9 @@ div {
 .btnPopin:hover{
     background-color: gainsboro;
 } 
+/* fin style bouton popin */
 
+/* debut style div overlay*/
 .overlay{
     margin: auto;
     background-color: rgb(53, 50, 50);
@@ -30,7 +33,9 @@ div {
     height: 100%;
     display: none;
 }
+/* fin style div overlay */
 
+/* debut style div popin */
 .popin{
     margin: 2.5% auto;
     width: 35%;
@@ -43,12 +48,17 @@ div {
     padding-right: 1em;
     padding-bottom: 0.5px;
 }
+/* fin style div popin */
 
+/* debut style bouton close */
 .btnClose{
     float: right;
     cursor: pointer;
 }
+/* fin style bouton close */
 
+/* debut style div voir plus */
 .popinMore{
     display: none;
 }
+/* fin style div voir plus */
